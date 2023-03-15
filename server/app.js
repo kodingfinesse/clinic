@@ -17,7 +17,7 @@ var app = express();
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb+srv://darrenptran:shanghai12@node.wqgfxsp.mongodb.net/appointments', {
+mongoose.connect('mongodb+srv://darrenptran:shanghai12@cluster0.xnfbkvl.mongodb.net/?retryWrites=true&w=majority', {
 });
 
 
